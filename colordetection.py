@@ -8,7 +8,7 @@ r = g = b = xpos = ypos = 0
 image = cv2.imread("resources/colors.jpeg")
 image=cv2.resize(image,(1400,700))
 index=["color", "color_name", "hex", "R", "G", "B"]
-data = pd.read_csv("C:/Users/Laptop/Downloads/colorcodes.csv", names=index, header=None,encoding='cp1252')
+data = pd.read_csv("https://github.com/srilekha11/ColorDetection/colorcodes.csv", names=index, header=None,encoding='cp1252')
 #print(data.head())
 #cv2.imshow("Color",image)
 
